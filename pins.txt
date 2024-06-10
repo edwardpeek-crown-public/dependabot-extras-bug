@@ -4,8 +4,6 @@
 #
 #    pip-compile --output-file=pins.txt --strip-extras pins.in
 #
---index-url https://artifacts.rtc.crownlift.net/artifactory/api/pypi/pypi/simple
-
 -e file:.
     # via -r pins.in
 build==1.2.1
@@ -18,7 +16,7 @@ mypy==1.7.1
     # via -r requirements-dev.txt
 mypy-extensions==1.0.0
     # via mypy
-packaging==24.0
+packaging==24.1
     # via build
 pip-tools==7.4.1
     # via -r requirements-dev.txt
