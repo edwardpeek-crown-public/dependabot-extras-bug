@@ -4,8 +4,6 @@
 #
 #    pip-compile --output-file=pins.txt --strip-extras pins.in
 #
---index-url https://artifacts.rtc.crownlift.net/artifactory/api/pypi/pypi/simple
-
 -e file:.
     # via -r pins.in
 build==1.2.1
@@ -33,7 +31,7 @@ tomli==2.0.1
     #   pip-tools
 typing-extensions==4.12.1
     # via mypy
-wheel==0.43.0
+wheel==0.44.0
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
